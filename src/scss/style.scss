@@ -1,0 +1,47 @@
+body{
+  background-color: #000;
+}
+button{
+  cursor: pointer;
+}
+.main-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.calculator-container {
+}
+
+.calc-input {
+  input{
+    height: 40px;
+    width: 100%;
+  }
+}
+
+.calc-grid {
+}
+
+.calc-row {
+}
+
+.calc-btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #333333;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  margin: 5px;
+  &:active{
+    background-color: #444;
+  }
+}
+.bg-orange{
+  background-color: #ED912E;
+  &:active{
+    background-color: #e39756;
+  }
+}
