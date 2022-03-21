@@ -10,20 +10,15 @@ button{
   padding-top: 200px;
 }
 
-.calculator-container {
-}
-
 .calc-input {
   input{
     height: 40px;
     width: 100%;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 20px;
   }
-}
-
-.calc-grid {
-}
-
-.calc-row {
 }
 
 .calc-btn {
@@ -32,12 +27,21 @@ button{
   border-radius: 50%;
   background-color: #333333;
   color: #fff;
-  font-size: 18px;
+  font-size: 35px;
   border: none;
   margin: 5px;
   &:active{
     background-color: #444;
   }
+}
+.error-handler{
+  font-size: 30px;
+  font-family: Arial;
+  padding: 5px 10px;
+  color: red;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .bg-orange{
   background-color: #ED912E;

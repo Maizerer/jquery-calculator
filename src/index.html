@@ -4,21 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Title</title>
-	<link rel="stylesheet" href="css/layout.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<main class="main-section">
 		<div class="calculator-container">
+			<div class="error-handler" id="error"></div>
 			<div class="calc-input">
 				<input type="text" readonly id="input">
 			</div>
 			<div class="calc-grid">
 				<div class="calc-row">
 					<button type="button" class="calc-btn" id="clear">AC</button>
-					<button type="button" class="calc-btn bg-orange" id="remains">Остаток</button>
-					<button type="button" class="calc-btn bg-orange" id="degree">Степень</button>
-					<button type="button" class="calc-btn bg-orange" id="root ">√</button>
+					<button type="button" class="calc-btn bg-orange" id="remains">Ост</button>
+					<button type="button" class="calc-btn bg-orange" id="degree">Степ</button>
+					<button type="button" class="calc-btn bg-orange" id="root">√</button>
 				</div>
 				<div class="calc-row">
 					<button type="button" class="calc-btn" id="seven">7</button>
@@ -36,7 +36,7 @@
 					<button type="button" class="calc-btn" id="one">1</button>
 					<button type="button" class="calc-btn" id="two">2</button>
 					<button type="button" class="calc-btn" id="three">3</button>
-					<button type="button" class="calc-btn bg-orange" id="fold">+</button>
+					<button type="button" class="calc-btn bg-orange" id="plus">+</button>
 				</div>
 				<div class="calc-row">
 					<button type="button" class="calc-btn" id="zero">0</button>
